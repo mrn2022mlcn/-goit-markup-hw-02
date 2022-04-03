@@ -54,5 +54,17 @@ body {
     color: #ffffff;
     background-color: var(--accent-color);
 }
-
-
+/* Footer */
+.footer .logo {
+    color: #ffffff;
+}
+.logo span{
+    color: var(--accent-color);
+}
+.footer .link {
+    color: #ffffff;
+}
+.footer .link:hover,
+.footer .link:focus {
+   color: var(--accent-color);
+}
