@@ -55,6 +55,7 @@ body {
 .button {
     color: #ffffff;
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 /* Footer */
 .footer .logo {
@@ -72,3 +73,7 @@ body {
 }
 
 /* Styles portfolio */
+
+.project-list .title {
+    color: var(--title-text-color);
+}
