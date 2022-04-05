@@ -13,6 +13,7 @@ body {
     list-style: none;
 }
 .logo{
+    font-family: "Raleway", "Roboto", sans-serif;;
     color: var(--title-text-color) ;
 }
 .logo span {
