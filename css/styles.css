@@ -22,6 +22,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo span {
@@ -36,16 +37,17 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
+    text-decoration: none;
 }
 
-}
 .site-nav .link:hover,
 .site-nav .link:focus {
    color: var(--accent-color);
 }
 
 .contacts .link {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .contacts .link:hover, 
@@ -57,6 +59,13 @@ body {
 
 .hero-title {
     color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+}
+.hero, .footer {
+    background-color: #2F303A;
 }
 
 .button {
@@ -67,25 +76,64 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,9;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    right: 430px;
 }
 
 /* Section */
 
 .section-title {
     color:  var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    
 }
 
 /* Features */
 
-.features .title {
+.features .title,
+.section .section-title {
+ 
     color:  var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+}
+
+.features .text {
+    font-size: 14px;
+    line-height: 1,71;
+}
+
+/* Services */
+.section .section-title,
+.section-team .section-title {
+    text-align: center; 
 }
 
 /* Team */
 
-.team-list .title {
-    color: var(--title-text-color);
+.section-team {
+background-color: #F5F4FA;
 }
+
+.list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+}
+
+.list .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+}
+
 
 /* Footer */
 
@@ -107,8 +155,13 @@ body {
 }
 
 /* Styles portfolio */
-
-
-.project-list .title {
+ .list .button{
     color: var(--title-text-color);
+    background-color: #F5F4FA;;
 }
+.list .button:hover, 
+.list .button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
