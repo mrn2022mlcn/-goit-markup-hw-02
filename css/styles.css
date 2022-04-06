@@ -64,9 +64,7 @@ body {
     line-height: 1,36;
     text-align: center;
 }
-.hero, .footer {
-    background-color: #2F303A;
-}
+
 
 .button {
     font-family: inherit;
