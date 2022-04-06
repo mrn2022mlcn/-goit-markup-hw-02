@@ -79,28 +79,24 @@ body {
     line-height: 1.9;
 }
 
-/* Section */
+/* Benefits */
 
 .section-title {
     color:  var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17;
-    
+    line-height: 1.17;  
 }
 
-/* Features */
-
-.features .title,
+.benefits .title,
 .section .section-title {
- 
     color:  var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
 }
 
-.features .text {
+.benefits .text {
     font-size: 14px;
     line-height: 1.71;
 }
@@ -131,7 +127,6 @@ background-color: #F5F4FA;
     line-height: 1.19;
 }
 
-
 /* Footer */
 
 .footer .logo {
@@ -144,11 +139,15 @@ background-color: #F5F4FA;
 
 .footer .link {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .footer .link:hover,
 .footer .link:focus {
    color: var(--accent-color);
+}
+.footer .address-text {
+    font-style: normal;
 }
 
 /* Styles portfolio */
