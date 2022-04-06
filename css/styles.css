@@ -64,7 +64,8 @@ body {
     text-align: center;
 }
 
-.hero, .footer {
+.hero,
+.footer {
     background-color: #2F303A;
 }
 
