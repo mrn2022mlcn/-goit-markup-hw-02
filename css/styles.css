@@ -110,22 +110,24 @@ body {
 /* Team */
 
 .section-team {
-background-color: #F5F4FA;
-}
+    background-color: #F5F4FA;
+    }
+    
+    .list .title {
+        color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+    }
+    
+    .list .text {
+        color: var(--primary-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+    }
 
-.list .title {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-}
-
-.list .text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-}
+.
 
 /* Footer */
 
