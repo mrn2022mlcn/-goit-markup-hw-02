@@ -15,7 +15,7 @@ body {
 .list {
     list-style: none;
 }
-
+/* Шапка*/ 
 .logo {
     color: var(--title-text-color) ;
     font-family: "Raleway", sans-serif;
